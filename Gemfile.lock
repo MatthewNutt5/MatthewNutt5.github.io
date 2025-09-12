@@ -47,6 +47,7 @@ GEM
     faraday-net_http (3.4.1)
       net-http (>= 0.5.0)
     ffi (1.17.2-x64-mingw-ucrt)
+    fiddle (1.1.8)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     github-pages (232)
@@ -261,13 +262,15 @@ GEM
       faraday (>= 0.17.3, < 3)
     securerandom (0.4.1)
     simpleidn (0.2.3)
-    terminal-table (1.6.0)
+    terminal-table (1.8.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
     typhoeus (1.5.0)
       ethon (>= 0.9.0, < 0.16.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2025.2)
       tzinfo (>= 1.0.0)
+    unicode-display_width (1.8.0)
     uri (1.0.3)
     wdm (0.2.0)
     webrick (1.9.1)
@@ -276,6 +279,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
+  fiddle
   github-pages
   http_parser.rb (~> 0.6.0)
   tzinfo (>= 1, < 3)
