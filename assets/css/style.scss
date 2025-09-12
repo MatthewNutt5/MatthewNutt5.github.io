@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+/* Without these lines, hyperlinks turn bold when hovered over, changing the 
+   text layout in the process. Icky. */
+
+/* Hyperlinks are bold and blue */
 a { color: #267CB9; text-decoration: none; font-weight: bold; }
 
+/* When hovered over, hyperlinks turn a darker shade */
 a:hover, a:focus { color: #069; text-decoration: none; font-weight: bold; }
