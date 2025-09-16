@@ -20,4 +20,4 @@ Free blocks are coalesced at the earliest possible opportunity. This includes im
 
 This implementation enjoys improved time efficiency due to the LIFO organization of the free lists, as given that the lists are populated by free blocks, and the allocation is within the size limits of the lists, a block for allocation can be found in O(1) time. However, this scheme can cause fragmentation and reduce spacial efficiency, as the block chosen is simply the newest one, rather than a more strategic choice like a block that fits the allocation perfectly and won't leave behind a smaller, less-useful free block.
 
-When tested on the Rice University CLEAR servers, this program is capable of 42 million operations per second with 68% average utilization.
+When tested on the Rice University CLEAR servers, this function is capable of 42 million operations per second with 68% average utilization.
