@@ -38,4 +38,4 @@ This is a three-stage MOSFET voltage amplifier, designed and tested in Keysight 
 
 ![Malloc Function](./assets/img/malloc.png)
 
-As part of the Computer Engineering part of my degree, I took a class that had us build a custom version of the `malloc` function in C. I programmed a segregated-list memory allocator with reallocation and coalescence, capable of 42 million operations per second with 68% average utilization.<br>[Read More](./malloc.html)
+As part of the Computer Engineering facet of my degree, I took a class that had us build a custom version of the `malloc` function in C. I programmed a segregated-list memory allocator with reallocation and coalescence, capable of 42 million operations per second with 68% average utilization.<br>[Read More](./malloc.html)

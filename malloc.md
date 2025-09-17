@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Dynamic Memory Allocator
+# Dynamic Memory Allocator<br>(March 2024)
 
 [Back to Main Page](../)
 
@@ -14,7 +14,7 @@ To place a free block, blocks are sorted into the maximum possible list index; a
 
 To select a free block, first the minimum index of the required size is calculated, then the head of that corresponding list is used. If there is no such list (the head does not exist), the next size up is used, and so on. For required sizes that are greater than the minimum guaranteed by the 11th list, the 11th list is searched for a block that can fit the required size, since any free block >2<sup>13</sup> will default to the 11th list.
 
-Free blocks are split any time the requested size is less than the block's size, as long as the resulting block would meet the minimum size requirements. This includes the functions `mm_realloc` and `place`.
+Free blocks are split any time the requested size is less than the block's size, as long as the resulting block would meet the minimum size requirements.
 
 Free blocks are coalesced at the earliest possible opportunity. This includes immediately after freeing a block and after expanding the heap.
 
