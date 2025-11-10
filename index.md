@@ -10,6 +10,12 @@ Outside of classes, I like to play and compose music, learn new cooking recipes,
 
 # Projects
 
+## FPGA CORDIC Module (October 2025)
+
+![CORDIC Sin/Cos Tests](./assets/img/hardware_sincos.png)
+
+The CORDIC algorithm is a method to calculate trigonometric functions without the use of multiply/divide. This project is an implementation of the algorithm programmed with a 16-bit fixed-point datatype in C++, synthesized via Vitis HLS and AMD Vivado, and tested on an AUP-ZU3 FPGA development board. The implementation achieved 360ns latency with an average deviation of 0.004% from expected results.<br>[View Report PDF](./assets/pdf/cordic_fpga_report.pdf){:target="_blank"}
+
 ## Snake Game ASIC (May 2025)
 
 ![VLSI Core](./assets/img/integrated_core.png)
