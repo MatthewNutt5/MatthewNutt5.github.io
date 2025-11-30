@@ -4,7 +4,7 @@ layout: default
 
 # About
 
-Welcome to my website! I am a 4th-year undergraduate at Rice University, pursuing a Bachelor's and a Master's in Electrical & Computer Engineering. My interests primarily lie in digital silicon, including VLSI, ASICs, and FPGAs, but I am generally invested in hardware design.
+Welcome to my website! I am a 4th-year undergraduate at Rice University, pursuing a Master's in Electrical & Computer Engineering. My interests primarily lie in digital silicon, including VLSI, ASICs, and FPGAs, but I am generally invested in hardware design.
 
 Outside of classes, I like to play and compose music, learn new cooking recipes, and do some weightlifting.
 
