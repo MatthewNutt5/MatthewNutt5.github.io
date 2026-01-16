@@ -4,43 +4,63 @@ layout: default
 
 # About
 
-Welcome to my website! I am a 4th-year undergraduate at Rice University, pursuing a Master's in Electrical & Computer Engineering. My interests primarily lie in digital silicon, including VLSI, ASICs, and FPGAs, but I am generally invested in hardware design.
+Welcome to my website! I am a 4th-year undergraduate at Rice University pursuing a Master’s in Electrical & Computer Engineering, with a specialization in silicon engineering and computer architecture. My long-term goal is to help design the next generation of computing technology.
 
-Outside of classes, I like to play and compose music, learn new cooking recipes, and do some weightlifting.
+Outside of classes, I enjoy weightlifting, composing music, and learning new cooking recipes.
 
 # Projects
 
-## FPGA CORDIC Module (October 2025)
+## FPGA Linear System Solver <span style="float:right;"> *December 2025* </span>
+
+![Solver Test](./assets/img/solver2.png)
+
+Linear systems can be solved via the QR decomposition (QRD) of the system matrix, which can be calculated with the resource-friendly CORDIC algorithm. This project is an implementation of a QRD-based solver algorithm for 4x4 matrices written in C++, synthesized via Vitis HLS and AMD Vivado, and tested on an AUP-ZU3 FPGA development board. The implementation achieved 29.5µs latency with an average deviation of 0.097% from expected results.<br>[View Report PDF](./assets/pdf/solver_fpga_report.pdf){:target="_blank"}
+
+---
+
+<!--
+## FPGA CORDIC Module <span style="float:right;"> *October 2025* </span>
 
 ![CORDIC Sin/Cos Tests](./assets/img/hardware_sincos.png)
 
 The CORDIC algorithm is a method to calculate trigonometric functions without the use of multiply/divide. This project is an implementation of the algorithm programmed with a 16-bit fixed-point datatype in C++, synthesized via Vitis HLS and AMD Vivado, and tested on an AUP-ZU3 FPGA development board. The implementation achieved 360ns latency with an average deviation of 0.004% from expected results.<br>[View Report PDF](./assets/pdf/cordic_fpga_report.pdf){:target="_blank"}
 
-## Snake Game ASIC (May 2025)
+---
+-->
+
+## Snake Game ASIC <span style="float:right;"> *May 2025* </span>
 
 ![VLSI Core](./assets/img/integrated_core.png)
 
 This project is an ASIC that plays a basic version of the snake game, featuring an 8x8 multiplexed display grid, randomly generated apple positions, and dual-phase clocking. The system was implemented in Verilog, verified with testbenches on each module, synthesized, placed/routed, and then finally connected to a padframe to prepare for tapeout on the AMI 0.5μm process.<br>[View Report PDF](./assets/pdf/snake_asic_report.pdf){:target="_blank"}<br>[View Repository](https://github.com/MatthewNutt5/snake){:target="_blank"}
 
-## 32-bit Carry-Bypass Adder (April 2025)
+---
+
+## 32-bit Carry-Bypass Adder <span style="float:right;"> *April 2025* </span>
 
 ![4-bit Adder Stage](./assets/img/schematic.png)
 
 This is a schematic-level design of a 32-bit carry-bypass adder on the Skywater 130nm PDK, with eight bypass units and transistor/gate sizing optimization for each unit. Thanks to these optimizations, we achieved a critical path delay of 640ps with 133μW average power consumption.<br>[View Report PDF](./assets/pdf/32-bit_adder_report.pdf){:target="_blank"}
 
-## Power Supply Supervisor (December 2024)
+---
+
+## Power Supply Supervisor <span style="float:right;"> *December 2024* </span>
 
 ![PLL Schematic](./assets/img/pll.png)
 
 For this project, my team designed a system that would monitor five power supply rails and generate a synchronous powergood output. The intention was that our design could be implemented into an ASIC with standard library cells. My main contribution was a 500KHz PLL that could achieve lock in 0.66ms and produced only 0.155% clock jitter.<br>[View Report PDF](./assets/pdf/powersupply_supervisor_report.pdf){:target="_blank"}
 
-## MOSFET Voltage Amplifier (April 2024)
+---
+
+## MOSFET Voltage Amplifier <span style="float:right;"> *April 2024* </span>
 
 ![PLL Schematic](./assets/img/overall.png)
 
 This is a three-stage MOSFET voltage amplifier, designed and tested in Keysight ADS. Following optimizations, the amplifier achieved 20dB gain, 1.5MΩ input impedance, and 16Ω output impedance, all at a 0.75mW static power consumption.<br>[View Report PDF](./assets/pdf/amplifier_report.pdf){:target="_blank"}
 
-## Dynamic Memory Allocator (March 2024)
+---
+
+## Dynamic Memory Allocator <span style="float:right;"> *March 2024* </span>
 
 ![Malloc Function](./assets/img/malloc.png)
 
