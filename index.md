@@ -32,7 +32,7 @@ The CORDIC algorithm is a method to calculate trigonometric functions without th
 
 ![VLSI Core](./assets/img/integrated_core.png)
 
-This project is an ASIC that plays a basic version of the snake game, featuring an 8x8 multiplexed display grid, randomly generated apple positions, and dual-phase clocking. The system was implemented in Verilog, verified with testbenches on each module, synthesized, placed/routed, and then finally connected to a padframe to prepare for tapeout on the AMI 0.5μm process.<br>[View Report PDF](./assets/pdf/snake_asic_report.pdf){:target="_blank"}<br>[View Repository](https://github.com/MatthewNutt5/snake){:target="_blank"}
+This project is an ASIC that plays a basic version of the snake game, featuring an 8x8 multiplexed display grid, randomly generated "food" positions, and dual-phase clocking. The system was implemented in Verilog, verified with testbenches on each module, synthesized, placed/routed, and then finally connected to a padframe to prepare for tapeout on the AMI 0.5μm process.<br>[View Report PDF](./assets/pdf/snake_asic_report.pdf){:target="_blank"}<br>[View Repository](https://github.com/MatthewNutt5/snake){:target="_blank"}
 
 ---
 
