@@ -10,7 +10,7 @@ Outside of classes, I enjoy weightlifting, composing music, and learning new coo
 
 # Projects
 
-## FPGA Linear System Solver <span style="float:right;"> *December 2025* </span>
+## FPGA Linear System Solver <span style="float:right; font-weight:normal"> *December 2025* </span>
 
 ![Solver Test](./assets/img/solver2.png)
 
@@ -19,7 +19,7 @@ Linear systems can be solved via the QR decomposition (QRD) of the system matrix
 ---
 
 <!--
-## FPGA CORDIC Module <span style="float:right;"> *October 2025* </span>
+## FPGA CORDIC Module <span style="float:right; font-weight:normal"> *October 2025* </span>
 
 ![CORDIC Sin/Cos Tests](./assets/img/hardware_sincos.png)
 
@@ -28,7 +28,7 @@ The CORDIC algorithm is a method to calculate trigonometric functions without th
 ---
 -->
 
-## Snake Game ASIC <span style="float:right;"> *May 2025* </span>
+## Snake Game ASIC <span style="float:right; font-weight:normal"> *May 2025* </span>
 
 ![VLSI Core](./assets/img/integrated_core.png)
 
@@ -36,7 +36,7 @@ This project is an ASIC that plays a basic version of the snake game, featuring 
 
 ---
 
-## 32-bit Carry-Bypass Adder <span style="float:right;"> *April 2025* </span>
+## 32-bit Carry-Bypass Adder <span style="float:right; font-weight:normal"> *April 2025* </span>
 
 ![4-bit Adder Stage](./assets/img/schematic.png)
 
@@ -44,7 +44,7 @@ This is a schematic-level design of a 32-bit carry-bypass adder on the Skywater 
 
 ---
 
-## Power Supply Supervisor <span style="float:right;"> *December 2024* </span>
+## Power Supply Supervisor <span style="float:right; font-weight:normal"> *December 2024* </span>
 
 ![PLL Schematic](./assets/img/pll.png)
 
@@ -52,7 +52,7 @@ For this project, my team designed a system that would monitor five power supply
 
 ---
 
-## MOSFET Voltage Amplifier <span style="float:right;"> *April 2024* </span>
+## MOSFET Voltage Amplifier <span style="float:right; font-weight:normal"> *April 2024* </span>
 
 ![PLL Schematic](./assets/img/overall.png)
 
@@ -60,7 +60,7 @@ This is a three-stage MOSFET voltage amplifier, designed and tested in Keysight 
 
 ---
 
-## Dynamic Memory Allocator <span style="float:right;"> *March 2024* </span>
+## Dynamic Memory Allocator <span style="float:right; font-weight:normal"> *March 2024* </span>
 
 ![Malloc Function](./assets/img/malloc.png)
 
