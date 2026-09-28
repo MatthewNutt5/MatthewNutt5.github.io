@@ -4,9 +4,9 @@ layout: default
 
 # About
 
-Welcome to my website! I am a 4th-year undergraduate at Rice University, pursuing a Master's in Electrical & Computer Engineering. My interests primarily lie in digital silicon, including VLSI, ASICs, and FPGAs, but I am generally invested in hardware design.
+Welcome to my website! I am a 1st-year graduate student at Rice University pursuing a Master’s in Electrical & Computer Engineering, with a specialization in silicon engineering and computer architecture. Following the completion of my degree in May 2027, I will be joining Marvell as a full-time Physical Design Engineer.
 
-Outside of classes, I like to play and compose music, learn new cooking recipes, and do some weightlifting.
+Outside of classes and work, I like to play and compose music, learn new cooking recipes, and do some weightlifting.
 
 # Projects
 
